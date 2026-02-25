@@ -79,7 +79,7 @@ This project solves that problem by allowing users to:
 
 ### Homepage
 <p align="center">
-  <img src="assets/ui-home.png" width="800">
+  <img src="assets/ui-home1.png" width="800">
 </p>
 
 ### AI Response
