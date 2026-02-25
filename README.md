@@ -1,4 +1,4 @@
-# 🎥 YouTube Chatbot – QA & Summarization using RAG
+# YouTube Chatbot – QA & Summarization using RAG
 
 An **AI-powered YouTube Video Intelligence Platform** that enables users to ask natural language questions about any YouTube video and receive **accurate, context-aware answers** using **Retrieval-Augmented Generation (RAG)**.
 
@@ -6,7 +6,7 @@ This project demonstrates a **production-style GenAI pipeline** using **LangChai
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 YouTube videos contain valuable information, but extracting insights from long videos is time-consuming.  
 This project solves that problem by allowing users to:
@@ -17,21 +17,21 @@ This project solves that problem by allowing users to:
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-- 🔗 Accepts any public YouTube video URL  
-- 🧾 Automatically extracts video transcripts  
-- ✂️ Splits transcript into semantic chunks  
-- 📚 Stores embeddings in a FAISS vector database  
-- 🔍 Retrieves relevant context using similarity search  
-- 🤖 Generates grounded answers using LLaMA 3.1  
-- 🎛️ Interactive Gradio web interface  
-- ⚙️ Modular, scalable codebase  
+- Accepts any public YouTube video URL  
+- Automatically extracts video transcripts  
+- Splits transcript into semantic chunks  
+- Stores embeddings in a FAISS vector database  
+- Retrieves relevant context using similarity search  
+- Generates grounded answers using LLaMA 3.1  
+- Interactive Gradio web interface  
+- Modular, scalable codebase  
 
 ---
 
-## 🧠 System Architecture (RAG Pipeline)
-## 🛠️ Tech Stack
+## System Architecture (RAG Pipeline)
+## Tech Stack
 
 - **Python**
 - **LangChain**
@@ -45,13 +45,13 @@ This project solves that problem by allowing users to:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ---
 
-## 🧩 Code Overview
+## Code Overview
 
-### 1️⃣ `app_interface.py`
+### 1️`app_interface.py`
 - Builds the **Gradio UI**
 - Accepts YouTube URL and user query
 - Connects UI to the RAG backend
@@ -59,14 +59,14 @@ This project solves that problem by allowing users to:
 
 ---
 
-### 2️⃣ `ingestion_service.py`
+### 2️`ingestion_service.py`
 - Extracts video ID from YouTube URL
 - Fetches transcript using YouTube Transcript API
 - Cleans and formats transcript text
 
 ---
 
-### 3️⃣ `langchain_orchestrator.py`
+### 3️`langchain_orchestrator.py`
 - Splits transcript into chunks
 - Generates embeddings using Sentence Transformers
 - Stores vectors in FAISS
@@ -75,14 +75,14 @@ This project solves that problem by allowing users to:
 
 ---
 
-## 📸 Application Preview
+## Application Preview
 
-### 🖥️ Homepage
+### Homepage
 <p align="center">
   <img src="assets/ui-home.png" width="800">
 </p>
 
-### 📤 AI Response
+### AI Response
 <p align="center">
   <img src="assets/ui-output.png" width="800">
 </p>
